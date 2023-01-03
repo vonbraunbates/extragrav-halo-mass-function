@@ -2,20 +2,19 @@
 host: vonbraunbates.github.io
 
 # Header-related options
-show_govuk_logo: true
-service_name: Name of API
+show_govuk_logo: false
+service_name: Calculate halo mass function in extended general relativity gravities
 service_link: https://www.larry-the-cat.service.gov.uk
 phase: Beta
 
 # Links to show on right-hand-side of header
 header_links:
-  About: https://www.larry-the-cat.service.gov.uk/about
-  Get Started: https://www.larry-the-cat.service.gov.uk/get-started
+  Code: https://github.com/vonbraunbates/extragrav-halo-mass-function
+  Related papers: https://arxiv.org/search/astro-ph?searchtype=author&query=von+Braun-Bates%2C+F
   Documentation: /
-  Support: https://www.larry-the-cat.service.gov.uk/support
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
-enable_search: false
+enable_search: true
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
 ga_tracking_id:
@@ -32,8 +31,8 @@ collapsible_nav: true
 max_toc_heading_level: 2
 
 # Prevent robots from indexing (e.g. whilst in development)
-prevent_indexing: false
+prevent_indexing: true
 
 show_contribution_banner: true
-github_repo: alphagov/YOUR_REPO
-github_branch: main
+github_repo: vonbraunbates/extragrav-halo-mass-function
+github_branch: docs
